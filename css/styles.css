@@ -35,6 +35,7 @@ hr{
 .card{
     background-color: white;
     width: 350px;
+    height: 431px;
     text-align: center;
     margin: 250px auto;
     position: relative;
@@ -53,30 +54,33 @@ hr{
 
 .follow{
     line-height: 2;
-   /* background-color: tomato; */
     width: 116.7px;
+    position: absolute;
+    bottom: 1px;
+    margin: 5px;
 }
 
 .like{
     line-height: 2;
-   /* background-color: yellow; */
     width: 116.7px;
     position: absolute;
     right: 116.7px;
-    top: 350.1px;
+    bottom: 2px;
+    margin: 5px;
 }
 
 .photo{
     line-height: 2;
-   /* background-color: blue;*/
     width: 116.7px;
     position: absolute;
-    left: 233.4px;
-    top: 350.1px;
+    left: 233px;
+    bottom: 2px;
+    margin: 5px;
 }
 
 .light{
     font-weight: 400;
+    font-size: 15px;
 }
 
 .heavy{
